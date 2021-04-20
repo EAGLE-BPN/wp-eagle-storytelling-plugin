@@ -1,0 +1,199 @@
+/**
+ * @package 	eagle-storytelling
+ * @subpackage	Search in Datasources | Css for the "add media"-dialogue
+ * @link 		http://www.eagle-network.eu/stories/
+ * @author 		Philipp Franck
+ */
+@CHARSET "UTF-8";
+
+
+/* esa result overview (in admin "add media" - area) */
+
+body {
+	background-color: #FCFCFC;
+}
+
+
+
+
+#esa-mediaframe .media-frame-content, 
+#esa-mediaframe .media-frame-router, 
+#esa-mediaframe .media-frame-title, 
+#esa-mediaframe .media-frame-toolbar  {
+	right: auto;
+	left: auto;
+}
+
+#esa-mediaframe .media-frame-router {
+    top: 6px;
+}
+
+#esa-mediaframe .media-frame-toolbar {
+	right: 0px;
+	left: 0px;
+	background-color: #FCFCFC;
+	border-top: 1px solid #CCC;
+}
+
+#esa-mediaframe .media-frame-content {
+	top: 40px;
+	right: 363px;
+	left: 0px;
+	border-right: 1px solid #CCC;
+	border-bottom: none;
+}
+
+
+
+#esa-mediaframe #media-items {
+	margin: 10px;
+	overflow: auto;
+}
+
+
+.esa_item_list .esa_item {
+	border: 2px solid silver;
+	min-width: 370px;
+	max-width: 410px;
+	width: 32%;
+	/*height: 130px;*/
+	overflow: hidden;
+	float: left;
+	margin: 4px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.esa_item_list .selected {
+	border: 2px solid blue;
+}
+
+.esa_item_list .esa_item:hover {
+	border: 2px solid black;
+}
+
+.esa_debug {
+	background: #F2EF99;
+	max-height:300px; 
+	overflow: scroll;
+	display: none	
+}
+
+/*
+#esa_item_list_main {
+	padding: 6px;
+	height: 100%;
+	overflow: scroll-y;
+	margin-right: 362px;
+}
+*/
+#esa_item_list_sidebar {
+	padding: 6px;
+	margin-top: 40px;
+	height: 100%;
+	overflow: auto;
+	float: right;
+	height: 100%;
+	border-top: 1px solid #CCC;
+	background-color: #FCFCFC;
+	width: 350px;
+}
+
+#esa_item_preview {
+	height: 350px;
+	width: 350px;
+	overflow: hidden;	
+	margin-bottom: 6px;
+	border: 2px solid #CCC;
+	float: none
+}
+
+
+#esa_item_settings {
+	margin-bottom: 0.5em;
+}
+
+#esa_item_settings label {
+	width: 29.5%;
+	display: inline-block;
+	text-align: right;
+	padding-right: 0.5%;
+	line-height: 16px;
+	font-weight: 400;
+	font-size: 12px;
+	color: #666;
+}
+
+#esa_item_settings input,
+#esa_item_settings select {
+	width: 70%;
+	margin: 0px;
+}
+
+.esa_item_setting {
+	margin-bottom: 2px;
+}
+
+.esa_item_list_pagination {
+	
+}
+
+.esa_item_list_pagination_button {
+	display: inline;
+	margin : 0.5em
+}
+
+.esa_item_list_pagination_current {
+	height: 28px;
+	margin: 0px;
+	padding: 0px 10px 1px;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+}
+
+.media-frame-content h1,
+.media-frame-content h2,
+.media-frame-content ul,
+.media-frame-content p {
+	margin: 15px
+}
+
+.toggled {
+	display:none	
+}
+
+#esa_search_form input[name='esa_ds_query'] {
+	width: 100%;
+}
+
+#esa_search_form input[type='submit'] {
+	float: right
+}
+
+#esa-mediaframe .esa_item_tools a.esa_item_tools_find {
+	display:none
+}
+
+/* infopage */
+
+
+#esa_infotable {
+	margin: 20px;
+}
+
+#esa_infotable td {
+	paddin: 3em;
+	vertical-align: middle;
+	font-size: 150%
+}
+
+
+/* else */
+#dai_name {
+	line-height: 1.2em;
+	color: #2E2E2E;
+	font-family: "Source Sans Pro",Arial,Helvetica,sans-serif;
+	text-decoration: none
+}
